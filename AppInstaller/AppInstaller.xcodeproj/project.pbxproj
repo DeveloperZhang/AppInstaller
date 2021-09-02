@@ -13,6 +13,7 @@
 		440C06EB244EE970005E1B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440C06EA244EE970005E1B4D /* Assets.xcassets */; };
 		440C06EE244EE970005E1B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440C06EC244EE970005E1B4D /* LaunchScreen.storyboard */; };
 		440C06F9244EE970005E1B4D /* AppInstallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C06F8244EE970005E1B4D /* AppInstallerTests.swift */; };
+		44F6F7FC24639D49009EA247 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F6F7FB24639D49009EA247 /* RootViewController.swift */; };
 		6BE2DB45A1C72D61EF5BF94B /* Pods_AppInstallerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02813A8BDAAF0332434ABDB3 /* Pods_AppInstallerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		440C06F4244EE970005E1B4D /* AppInstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppInstallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		440C06F8244EE970005E1B4D /* AppInstallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInstallerTests.swift; sourceTree = "<group>"; };
 		440C06FA244EE970005E1B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F6F7FB24639D49009EA247 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		55A64B7BAE99464746542270 /* Pods-AppInstaller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppInstaller.debug.xcconfig"; path = "Target Support Files/Pods-AppInstaller/Pods-AppInstaller.debug.xcconfig"; sourceTree = "<group>"; };
 		5F5353FC316C117C22CAFE54 /* Pods-AppInstallerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppInstallerTests.debug.xcconfig"; path = "Target Support Files/Pods-AppInstallerTests/Pods-AppInstallerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4A7F529D565942519EB2418 /* Pods-AppInstaller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppInstaller.release.xcconfig"; path = "Target Support Files/Pods-AppInstaller/Pods-AppInstaller.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				440C06E1244EE96C005E1B4D /* AppDelegate.swift */,
+				44F6F7FB24639D49009EA247 /* RootViewController.swift */,
 				440C06E5244EE96C005E1B4D /* ViewController.swift */,
 				440C06E7244EE96C005E1B4D /* Main.storyboard */,
 				440C06EA244EE970005E1B4D /* Assets.xcassets */,
@@ -296,6 +299,7 @@
 			files = (
 				440C06E6244EE96C005E1B4D /* ViewController.swift in Sources */,
 				440C06E2244EE96C005E1B4D /* AppDelegate.swift in Sources */,
+				44F6F7FC24639D49009EA247 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
